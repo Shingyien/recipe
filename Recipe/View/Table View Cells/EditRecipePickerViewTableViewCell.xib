@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="EditRecipePickerViewTableViewCell" rowHeight="120" id="UYH-8g-SfS" customClass="EditRecipePickerViewTableViewCell" customModule="Recipe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UYH-8g-SfS" id="oqO-FY-OtH">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XYJ-Be-c41">
+                        <rect key="frame" x="20" y="10" width="331" height="34"/>
+                        <color key="backgroundColor" systemColor="systemFillColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="cyI-pq-hhA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="XYJ-Be-c41" firstAttribute="leading" secondItem="oqO-FY-OtH" secondAttribute="leading" constant="20" id="1EM-JE-muK"/>
+                    <constraint firstItem="XYJ-Be-c41" firstAttribute="centerY" secondItem="oqO-FY-OtH" secondAttribute="centerY" id="oOy-fj-bst"/>
+                    <constraint firstAttribute="bottom" secondItem="XYJ-Be-c41" secondAttribute="bottom" constant="10" id="tWZ-zO-wWf"/>
+                    <constraint firstItem="XYJ-Be-c41" firstAttribute="top" secondItem="oqO-FY-OtH" secondAttribute="top" constant="10" id="wLv-lC-mq4"/>
+                    <constraint firstItem="XYJ-Be-c41" firstAttribute="centerX" secondItem="oqO-FY-OtH" secondAttribute="centerX" id="z3J-1u-R6w"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="trf-Gc-eTY"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="tfEditRecipe" destination="XYJ-Be-c41" id="Pfe-g8-ARi"/>
+            </connections>
+            <point key="canvasLocation" x="64" y="56"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

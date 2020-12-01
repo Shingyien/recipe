@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JGi-Cf-vJW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Recipe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rCA-7i-wRd">
+                                <rect key="frame" x="0.0" y="138.5" width="414" height="674.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="1RJ-qr-ych"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="mV6-XX-IBh"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9MT-4X-6BC">
+                                <rect key="frame" x="20" y="108" width="294" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phG-kZ-v6P">
+                                <rect key="frame" x="334" y="103.5" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="cXu-DW-oqu"/>
+                                </constraints>
+                                <state key="normal" title="Filter"/>
+                                <connections>
+                                    <action selector="btnFilterOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j7Z-Ya-m4M"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9MT-4X-6BC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="BKk-Yq-FjM"/>
+                            <constraint firstItem="rCA-7i-wRd" firstAttribute="top" secondItem="9MT-4X-6BC" secondAttribute="bottom" constant="10" id="P0Z-fY-IMv"/>
+                            <constraint firstItem="phG-kZ-v6P" firstAttribute="centerY" secondItem="9MT-4X-6BC" secondAttribute="centerY" id="TYc-zg-j0Y"/>
+                            <constraint firstItem="rCA-7i-wRd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VKO-Vo-QiA"/>
+                            <constraint firstItem="phG-kZ-v6P" firstAttribute="leading" secondItem="9MT-4X-6BC" secondAttribute="trailing" constant="20" id="fc5-YN-4T8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="phG-kZ-v6P" secondAttribute="trailing" constant="20" id="l2H-xT-dBo"/>
+                            <constraint firstItem="rCA-7i-wRd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lK6-CW-JBh"/>
+                            <constraint firstItem="9MT-4X-6BC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="osf-uV-C8D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rCA-7i-wRd" secondAttribute="bottom" id="zM3-L4-Itq"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house.fill" id="fNM-mf-Uzx"/>
+                    <navigationItem key="navigationItem" title="Welcome" id="csg-D9-dVX">
+                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="48G-Io-f7O">
+                            <connections>
+                                <action selector="btnAddRecipeOnClick:" destination="BYZ-38-t0r" id="RKy-AI-A2l"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="btnFilter" destination="phG-kZ-v6P" id="4kp-2v-2bq"/>
+                        <outlet property="recipeListTableView" destination="rCA-7i-wRd" id="SeN-zv-ZSM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837.68115942028987" y="88.392857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="U7h-dP-fFW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JGi-Cf-vJW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mQL-Nk-cud">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="MC1-dz-p3T"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c39-HQ-24K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-72.463768115942031" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

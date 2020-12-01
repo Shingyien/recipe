@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PickerView" customModule="Recipe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="379"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xek-di-vud">
+                    <rect key="frame" x="20" y="64" width="419" height="261"/>
+                </pickerView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Xek-di-vud" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="FHB-1K-Ko4"/>
+                <constraint firstItem="Xek-di-vud" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="OWa-HT-jZP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Xek-di-vud" secondAttribute="bottom" constant="20" id="gU6-KR-Pim"/>
+                <constraint firstItem="Xek-di-vud" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="j8i-1g-E2e"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="pickerView" destination="Xek-di-vud" id="tqb-sa-Z8X"/>
+            </connections>
+            <point key="canvasLocation" x="170.28985507246378" y="-113.50446428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

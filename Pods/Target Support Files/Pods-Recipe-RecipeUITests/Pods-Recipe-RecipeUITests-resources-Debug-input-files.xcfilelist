@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Recipe-RecipeUITests/Pods-Recipe-RecipeUITests-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle

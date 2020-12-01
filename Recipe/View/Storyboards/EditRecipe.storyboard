@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cGh-nK-TEp">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Edit Recipe-->
+        <scene sceneID="dAq-xY-eiv">
+            <objects>
+                <viewController id="jsK-oT-8k4" customClass="EditRecipeViewController" customModule="Recipe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Ba-7C-wfi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="8Sh-0p-pKo">
+                                <rect key="frame" x="0.0" y="88" width="414" height="724"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="jsK-oT-8k4" id="5Nd-Eg-iNA"/>
+                                    <outlet property="delegate" destination="jsK-oT-8k4" id="A4r-Av-qFt"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LQ-xb-bPN">
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <state key="normal" title="Save Recipe">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSaveRecipeOnClick:" destination="jsK-oT-8k4" eventType="touchUpInside" id="i9E-Rx-gei"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="R9l-5G-hsR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8Sh-0p-pKo" firstAttribute="centerX" secondItem="R9l-5G-hsR" secondAttribute="centerX" id="4X6-SU-oRq"/>
+                            <constraint firstItem="8Sh-0p-pKo" firstAttribute="top" secondItem="R9l-5G-hsR" secondAttribute="top" id="AQn-I1-Ahh"/>
+                            <constraint firstItem="5LQ-xb-bPN" firstAttribute="centerX" secondItem="R9l-5G-hsR" secondAttribute="centerX" id="Aev-ej-Rd0"/>
+                            <constraint firstItem="R9l-5G-hsR" firstAttribute="bottom" secondItem="8Sh-0p-pKo" secondAttribute="bottom" constant="50" id="DfA-3x-yD7"/>
+                            <constraint firstItem="5LQ-xb-bPN" firstAttribute="leading" secondItem="R9l-5G-hsR" secondAttribute="leading" id="I57-rQ-HiG"/>
+                            <constraint firstItem="5LQ-xb-bPN" firstAttribute="leading" secondItem="8Sh-0p-pKo" secondAttribute="leading" id="RUK-N5-BtR"/>
+                            <constraint firstItem="R9l-5G-hsR" firstAttribute="bottom" secondItem="5LQ-xb-bPN" secondAttribute="bottom" id="TKV-hE-fmI"/>
+                            <constraint firstItem="5LQ-xb-bPN" firstAttribute="top" secondItem="8Sh-0p-pKo" secondAttribute="bottom" id="TYN-ch-kw0"/>
+                            <constraint firstItem="8Sh-0p-pKo" firstAttribute="leading" secondItem="R9l-5G-hsR" secondAttribute="leading" id="if5-de-prd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Recipe" id="EJl-uc-cDh"/>
+                    <connections>
+                        <outlet property="btnSaveRecipe" destination="5LQ-xb-bPN" id="9Wg-hJ-A78"/>
+                        <outlet property="editRecipeTableView" destination="8Sh-0p-pKo" id="Ltx-r8-fbF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYI-fK-cQt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="43.526785714285715"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uSf-Te-A82">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cGh-nK-TEp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eGa-12-KGt">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jsK-oT-8k4" kind="relationship" relationship="rootViewController" id="6pq-2l-Wyl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TZ3-6L-QlD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="43.526785714285715"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

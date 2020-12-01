@@ -1,0 +1,234 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "type": "Appetizer",
+      "typeId": "1",
+      "name": "Air Fry Mozzarella Sticks",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hdm-mozzarellasticks-14894-1564436376.jpg",
+      "ingredients": [
+        "6 mozzarella sticks",
+        "1 c. panko bread crumbs",
+        "Kosher salt",
+        "Freshly cracked black pepper",
+        "2 large eggs, well-beaten",
+        "3 tbsp. all-purpose flour",
+        "Warm marinara, for serving"
+      ],
+      "description": "Hot, crunchy, and oozing mozzarella sticks!",
+      "steps": [
+        "Freeze mozzarella sticks until frozen solid, at least 2 hours.",
+        "After 3 hours, set up a breading station: Place panko, eggs, and flour in 3 separate shallow bowls. Season panko generously with salt and pepper.",
+        "Coat frozen mozzarella sticks in flour, then dip in egg, then panko, back in the egg, then back in the panko.",
+        "Arrange frozen breaded mozzarella sticks in an even layer in the basket of your air fryer. Cook on 400° for 6 minutes, or until golden and crisp on the outside and melty in the center.",
+        "Serve with warm marinara sauce for dipping."
+      ],
+      "credits": "https://www.delish.com/cooking/recipe-ideas/a28469700/mozzarella-sticks-recipe/"
+    },
+    {
+      "id": "2",
+      "type": "Beverage",
+      "typeId": "2",
+      "name": "Berry Booster",
+      "imageUrl": "https://keelings.ie/wp-content/uploads/2017/03/shutterstock_442444972.jpg",
+      "ingredients": [
+        "8 cups cranberry juice, chilled",
+        "1 quart vanilla ice cream, softened",
+        "1 package (10 ounces) frozen sweetened sliced strawberries, thawed and pureed",
+        "1-1/4 cups sugar",
+        "1 teaspoon vanilla extract",
+        "2 cups heavy whipping cream, whipped",
+        "4 cups ginger ale, chilled",
+        "Fresh strawberries, optional"
+      ],
+      "description": "This is a power booster, full of nutrition! The best beverage to start your day!",
+      "steps": [
+        "In a large bowl or container, combine the first five ingredients.",
+        "stir until smooth and the sugar is dissolved.",
+        "Fold in whipped cream.",
+        "Slowly add ginger ale.",
+        "stir gently to mix.",
+        "Pour into glasses. Garnish with strawberries if desired. Serve immediately."
+      ],
+      "credits": "https://www.tasteofhome.com/recipes/fancy-berry-beverage/"
+    },
+    {
+      "id": "3",
+      "type": "Soup",
+      "typeId": "3",
+      "name": "Cream of Mushroom Soup",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2018/11/cream-of-mushroom-soup.jpg",
+      "ingredients": [
+        "2 tablespoons extra-virgin olive oil, plus more for drizzling",
+        "2 medium leeks, white and light green parts, sliced (2 cups)",
+        "2 celery stalks, diced",
+        "16 ounces cremini mushrooms, chopped",
+        "2 tablespoons tamari",
+        "¼ cup dry white wine",
+        "2 large garlic cloves, chopped",
+        "2 tablespoons fresh thyme leaves",
+        "4 cups vegetable broth",
+        "1 pound cauliflower, broken into florets (5 cups)",
+        "1 teaspoon Dijon mustard",
+        "1 tablespoon balsamic vinegar",
+        "Sea salt and freshly ground black pepper"
+      ],
+      "description": "This cream of mushroom soup is healthy comfort food at its best! It's creamy, savory, and absolutely delicious.",
+      "steps": [
+        "Heat the oil in a large pot over medium heat. Add the leeks, celery, ¼ teaspoon salt, and cook 5 minutes. Add the mushrooms and cook until soft, 8 to 10 minutes more.",
+        "Stir in the tamari, wine, garlic, and thyme and cook for 30 seconds to 1 minute, or until the wine has evaporated. Add the broth and the cauliflower.",
+        "Simmer uncovered for 20 minutes, or until the cauliflower is very soft. Transfer to a blender, add the mustard and vinegar, and blend until smooth. Season to taste and serve with desired garnishes."
+      ],
+      "credits": "https://www.loveandlemons.com/cream-of-mushroom-soup/"
+    },
+    {
+      "id": "4",
+      "type": "Soup",
+      "typeId": "3",
+      "name": "Creamy Potato Soup",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2019/12/potato-soup-recipe.jpg",
+      "ingredients": [
+        "3 tablespoons extra-virgin olive oil, divided",
+        "1 large white onion, chopped",
+        "½ teaspoon sea salt",
+        "4 garlic cloves, chopped",
+        "1 tablespoon white wine vinegar",
+        "4 cups vegetable broth",
+        "1½ pounds Yukon gold potatoes, about 5, chopped",
+        "1½ cups cooked white beans, drained and rinsed",
+        "½ teaspoon Dijon mustard",
+        "1 tablespoon fresh lemon juice",
+        "¼ teaspoon smoked paprika",
+        "Freshly ground black pepper"
+      ],
+      "description": "This ultra creamy potato soup recipe is my favorite healthy comfort food! To make it extra comforting, I top mine with Greek yogurt, chives, and coconut bacon.",
+      "steps": [
+        "Heat 2 tablespoons olive oil in a large pot or Dutch oven over medium heat. Add the onion, salt, and several grinds of pepper. Sauté 6 to 8 minutes, until softened.",
+        "Add the garlic, stir, and cook 2 more minutes. Stir in the white wine vinegar and cook, stirring, for 30 seconds, and then add the broth, potatoes, and white beans. Bring to a boil, reduce the heat, and simmer 30 minutes.",
+        "Let cool slightly, then transfer half of the soup to a blender with the remaining 1 tablespoon olive oil, the mustard, lemon juice, and paprika. Blend until smooth and return the pureed soup back to the pot.",
+        "Use a potato masher to gently smash the potato chunks and beans. Season to taste with more salt and pepper and serve with desired toppings."
+      ],
+      "credits": "https://www.loveandlemons.com/potato-soup-recipe/"
+    },
+    {
+      "id": "5",
+      "type": "Salad",
+      "typeId": "4",
+      "name": "Easy Greek Salad",
+      "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2019/08/chickpea-salad.jpg",
+      "ingredients": [
+        "¼ cup extra-virgin olive oil",
+        "3 tablespoons red wine vinegar",
+        "1 garlic clove, minced",
+        "½ teaspoon dried oregano, more for sprinkling",
+        "¼ teaspoon Dijon mustard",
+        "1 English cucumber, cut lengthwise, seeded, and sliced ¼-inch thick",
+        "1 green bell pepper, chopped into 1-inch pieces",
+        "2 cups halved cherry tomatoes",
+        "5 ounces feta cheese, cut into ½ inch cubes",
+        "⅓ cup thinly sliced red onion",
+        "⅓ cup pitted Kalamata olives",
+        "⅓ cup fresh mint leaves",
+        "¼ teaspoon sea salt",
+        "Freshly ground black pepper"
+      ],
+      "description": "One of our favorite salad recipes! This easy Greek salad recipe is a flavorful, refreshing side dish!",
+      "steps": [
+        "In a small bowl, whisk together the olive oil, vinegar, garlic, oregano, mustard, salt, and several grinds of pepper.",
+        "On a large platter, arrange the cucumber, green pepper, cherry tomatoes, feta cheese, red onions, and olives. Drizzle with the dressing and very gently toss. Sprinkle with a few generous pinches of oregano and top with the mint leaves. Season to taste and serve."
+      ],
+      "credits": "https://www.loveandlemons.com/salad-recipes/"
+    },
+    {
+      "id": "6",
+      "type": "Main Dish",
+      "typeId": "5",
+      "name": "Garlic Butter Steak",
+      "imageUrl": "https://www.recipetineats.com/wp-content/uploads/2019/07/Cheffy-Garlic-Butter-Steak_6.jpg",
+      "ingredients": [
+        "1 - 2 boneless ribeye or scotch fillet , 2.5 cm / 1 inch thick, approx 300g/10 oz each (Note 1)",
+        "1 tbsp vegetable oil",
+        "Salt and pepper",
+        "75g / 5 tbsp unsalted butter , cut into 1.25cm / 1/2 inch cubes (Note 2)",
+        "6 sprigs fresh thyme or 3 sprigs rosemary",
+        "5 garlic cloves , peeled and smashed to split (Note 3)"
+      ],
+      "description": "Here's a cheffy way to cook steak that really makes the most of a good steak - or fancies up economical steaks! Basting with garlic-thyme infused butter as the steak is cooking adds flavour and luxury to the steak. You'll feel like a total pro cooking it and it'll rival the best steakhouse in town!",
+      "steps": [
+        "Bring to room temp: Take the steak out of the fridge 30 minutes prior to bring to room temperature.",
+        "Dry steaks: Pat dry with paper towels.",
+        "Heat skillet: Heat oil in a heavy based skillet over high heat until it is very hot - you should see smoke!",
+        "Season: Sprinkle each side of the steak generously with salt and pepper, then immediately place in the skillet.",
+        "Sear Side 1: Cook for 2 - 2.5 minutes until you get a great crust, then turn.",
+        "Garlic Butter: Leave for 1 minute, then push steaks to one side and toss in butter, garlic and thyme. BE CAREFUL - the thyme will sputter!",
+        "Baste: As soon as the butter is melted, continuously spoon the butter over the steak until it's cooked to your liking - 2 minutes in total for the 2nd side for medium rare (52C/125F, chart below for other doneness temps)",
+        "Basting also renders fat on the side of the steak – use tongs to sear the edges at the end if you want it browned more.",
+        "Rest: Transfer steak to a plate and cover loosely with foil, rest for 5 to 10 minutes.",
+        "Serve steak with a bit of the butter from the skillet drizzled on top. Pictured in post with Crispy Smashed Potatoes."
+      ],
+      "credits": "https://www.recipetineats.com/how-to-cook-steak/"
+    },
+    {
+      "id": "7",
+      "type": "Dessert",
+      "typeId": "6",
+      "name": "Classic chocolate mousse",
+      "imageUrl": "https://realfood.tesco.com/media/images/RFO-1400x919-classic-chocolate-mousse-69ef9c9c-5bfb-4750-80e1-31aafbd80821-0-1400x919.jpg",
+      "ingredients": [
+        "100g classic 74% dark chocolate, chopped, plus extra shards to decorate (optional)",
+        "25g butter, cubed",
+        "3 large eggs, separated",
+        "2 tbsp caster sugar",
+        "2 tbsp whipping cream (optional)"
+      ],
+      "description": "Creamy chocolate mousse is an absolute classic, and this indulgent gluten-free dessert recipe is so easy to follow.",
+      "steps": [
+        "Put the chocolate, butter and 75ml warm water (see tip, below) in a heatproof bowl set over a pan of barely simmering water. Push the chocolate and butter gently into the warm water with a wooden spoon to help it melt, but avoid stirring too much. Once three-quarters of the butter and chocolate is melted, remove the bowl from the heat. Stir until melted, smooth and glossy. Set aside until lukewarm.",
+        "Working quickly, use a spatula to stir the egg yolks into the chocolate mixture, one at a time. In a separate bowl, use an electric whisk to whip the egg whites to soft peaks, then gradually add the sugar, whisking, until stiff peaks form.[Video:What should 'stiff peaks' look like?,Text:What should 'stiff peaks' look like?]",
+        "Gently fold about a fifth of the egg whites into the chocolate mixture, then fold in the rest, being careful not to knock out the air bubbles. Pour into wine or dessert glasses, cover with clingfilm and chill overnight to set.[Video:How to fold,Text:How to fold]",
+        "When ready to serve, whip the cream (if using) to soft peaks. Top each glass with a spoonful of cream and decorate with chocolate shards, if you like."
+      ],
+      "credits": "https://realfood.tesco.com/recipes/classic-chocolate-mousse.html"
+    },
+    {
+      "id": "8",
+      "type": "Pastry",
+      "typeId": "7",
+      "name": "Homemade Pastry Dough",
+      "imageUrl": "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2013/10/How-to-make-Danish-Pastry-Braid-8.jpg",
+      "ingredients": [
+        "1/4 cup (60ml) warm water (between 100-110°F, 38-43°C)",
+        "2 and 1/4 teaspoons active dry or instant yeast (1 standard packet)*",
+        "1/2 cup (120ml) whole milk, at room temperature (between 68–72°F, 20-22°C)",
+        "1 large egg, at room temperature",
+        "1/4 cup (50g) granulated sugar",
+        "1 teaspoon salt",
+        "14 Tablespoons (205g) unsalted butter, cold",
+        "2 and 1/2 cups (315g) all-purpose flour (spoon & leveled), plus more for generously flouring hands, surface, and dough",
+        "1 large egg",
+        "2 Tablespoons (30ml) whole milk"
+      ],
+      "description": "This recipe yields 2 lbs of dough, which equals 2 pastry braids. 1 braid serves 5-6 people. If you don’t need that many tempting pastries around, freeze the second half of the dough for a later time. Make-ahead and freezing instructions included below.",
+      "steps": [
+        "Preliminary note: To help guarantee success, I recommend reading through the recipe, watching the video tutorial, and reading the explanations below this recipe. (All answer many FAQs.) Do not use an electric mixer for this dough. It’s best if the dough is folded together with a wooden spoon or rubber spatula since it is so sticky. There is very minimal mixing required.",
+        "Make the Pastry Dough: Whisk the warm water, yeast, and 1 Tablespoon (6g) of sugar together in a large bowl. Cover and allow to rest until foamy on top, about 5 minutes. If the surface doesn’t have bubbles on top or look foamy after 15 minutes (it should if the yeast isn’t expired), start over with a fresh packet of yeast. Whisk in remaining sugar, the milk, egg, and salt. Once these wet ingredients are mixed together, lightly cover and set the bowl aside as you work on the next step.",
+        "Cut the cold butter into 1/4 inch slices and add to a food processor or blender. Top with 2 and 1/2 cups flour. Pulse the mixture 12-15 times, until butter is crumbled into pea-size bits. See photo below for a visual. Using a food processor or blender is best for this dough. Keeping that in mind, if you don’t have one, you can use a pastry cutter to work in the butter.",
+        "Pour the flour mixture into the wet yeast mixture. Very gently fold everything together using a rubber spatula or wooden spoon. Fold *just until* the dry ingredients are moistened. The butter must remain in pieces and crumbles, which creates a flaky pastry. Turn the sticky dough out onto a large piece of plastic wrap, parchment paper, aluminum foil, or into any container you can tightly cover.",
+        "1st Refrigeration: Wrap the dough/cover up tightly and refrigerate for at least 4 hours and up to 48 hours.",
+        "Roll & Fold: Take the dough out of the refrigerator to begin the “rolling and folding” process. If the dough sat for more than 4 hours, it may have slightly puffed up and that’s ok. (It will deflate as you shape it, which is also ok.) Very generously flour a work surface. The dough is very sticky, so make sure you have more flour nearby as you roll and fold. Using the palm of your hands, gently flatten the dough into a small square. Using a rolling pin, roll out into a 15×8 inch rectangle. When needed, flour the work surface and dough as you are rolling. Fold the dough into thirds as if it were a business letter. (See photos and video tutorial.) Turn it clockwise and roll it out into a 15 inch long rectangle again. Then, fold into thirds again. Turn it clockwise. You’ll repeat rolling and folding 1 more time for a total of 3 times.",
+        "2nd Refrigeration: Wrap up/seal tightly and refrigerate for at least 1 hour and up to 24 hours. You can also freeze the dough at this point. See freezing instructions.",
+        "Line two large baking sheets with parchment paper or silicone baking mats. Rimmed baking sheets are best because butter may leak from the dough as it bakes. If you don’t have rimmed baking sheets, when it’s time to preheat the oven, place another baking sheet on the oven rack below to catch any butter that may drip.",
+        "Take the dough out of the refrigerator and cut it in half. Wrap 1 half up and keep refrigerated as you work with the first half. (You can freeze half of the dough at this point, use the freezing instructions below.)",
+        "On a floured work surface, roll dough out into a 12×8 inch rectangle. You can roll out the dough on a lightly floured piece of parchment paper or lightly floured silicone baking mat instead because you will transfer the shaped dough to a lined baking sheet next.",
+        "Using a sharp knife, cut off two corners of the dough (on one 8-inch side) and then two small triangles 3 inches apart from each other on the other end (the other 8-inch side). See visual below.",
+        "Spread 1/2 of the filling (raspberry or cream cheese) down the length of the center of the strip, which should be about 3 inches wide. Using a sharp knife, pastry wheel, or pizza cutter, cut 10 slanting strips (3/4 – 1 inch wide each) along both sides. Fold strips over filling, alternating each side to resemble a twist or a braid. Fold the bottom end up to seal the filling inside. Repeat with the second half of the dough and the rest of the filling. The braids may seem very narrow, but they puff up and out as they bake.",
+        "Egg Wash: Whisk the egg wash ingredients together. Brush all over the dough.",
+        "I strongly recommend refrigerating the shaped braids before baking for at least 15 minutes and up to 1 hour before baking. The braids tend to leak more butter and/or lose more shape if they haven’t chilled.",
+        "Preheat oven to 400°F (204°C).",
+        "Bake each braid for 18-22 minutes or until golden brown. Some butter may leak from the dough, that’s completely normal and expected. Feel free to remove the baking sheets from the oven halfway through baking and brush the dough with any of the leaking butter, then place back in the oven to finish baking. (That’s what I do!)",
+        "Remove baked danish braids from the oven and cool for at least 5 minutes before cutting and serving."
+      ],
+      "credits": "https://sallysbakingaddiction.com/danish-pastry-dough/"
+    }
+  ]
+}
